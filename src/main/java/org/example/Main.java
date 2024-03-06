@@ -8,8 +8,9 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
         int b = sc.nextInt();
-        Add obj = new Add();
-        int result = obj.add(a,b);
+//        Add obj = new Add();
+        Multiply obj = new Multiply();
+        int result = obj.multiply(a,b);
         System.out.println("The final result is :- "+result);
     }
 
